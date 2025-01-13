@@ -15,10 +15,129 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- css media quries -->
+    <link rel="stylesheet" href="css/media.css" />
     <title>Nexcent</title>
   </head>
   <body>
-    <h1 class="">Hello, world!</h1>
+    <!-- header start -->
+    <header>
+      <!-- navbar start  -->
+      <nav class="navbar navbar-expand-lg nav-bar navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto navigation mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"> FAQ </a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <button class="btn login-btn me-2" type="submit">Login</button>
+              <button class="btn sign-up-btn py-2 px-3">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+      <!-- hero section start -->
+      <section id="hero-section">
+        <!-- carousel -->
+        <div class="container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                class="indicator-button-style active"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                class="indicator-button-style"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                class="indicator-button-style"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div
+                class="carousel-item carousel-img-div active flex-column flex-sm-column d-flex align-items-center gap-5 flex-lg-row"
+              >
+                <div class="hero-content col-10 col-sm-12 col-md-12 col-lg-8">
+                  <h1>
+                    Lessons and insights <br />
+                    <span>from 8 years</span>
+                  </h1>
+                  <p>
+                    Where to grow your business as a photographer: site or
+                    social media?
+                  </p>
+                  <button class="primary-button">Sign up</button>
+                </div>
+                <div class="hero-img col-10 col-sm-12 col-md-10 col-lg-4">
+                  <img
+                    src="assets/images/hero-img.svg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel end -->
+        </div>
+      </section>
+      <!-- hero-section end -->
+    </main>
+    <!-- main ends -->
+    <!-- footer start -->
+    <footer></footer>
+    <!-- footer ends  -->
 
     <!-- bootstrap javascript link -->
     <script

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --primary-color: #4caf4f;
+  --secondary-color: #263238;
+  --bg-color-one: #f5f7fa;
+  --text-color: #18191f;
+  --heading-color: #4d4d4d;
+  --para-color: #717171;
+  --white: #fff;
+}
+body {
+  font-family: "Inter", serif;
+}
+p {
+  color: var(--para-color);
+}
+.primary-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  padding: 14px 32px;
+  transition: all linear 0.4s;
+}
+.primary-button:hover {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+}
+/* navbar style start */
+
+.nav-bar {
+  background-color: var(--bg-color-one);
+}
+.navigation li a {
+  color: var(--text-color);
+  transition: all linear 0.4s;
+}
+.nav-item > .active {
+  font-weight: 500;
+}
+.nav-item > a:hover {
+  font-weight: 500;
+}
+.login-btn {
+  color: var(--primary-color);
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all linear 0.4s;
+}
+
+.sign-up-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: all linear 0.4s;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login-btn:hover {
+  border: 1px solid var(--primary-color);
+}
+.sign-up-btn:hover {
+  background-color: #0dad12;
+  color: white;
+}
+
+/* hero section styles */
+
+#hero-section {
+  background-color: var(--bg-color-one);
+}
+
+.carousel-img-div {
+  padding: 96px 0;
+}
+/* .hero-content {
+  
+} */
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 76px;
+}
+
+.hero-content span {
+  color: var(--primary-color);
+}
+.hero-content > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 16px 0 24px 0;
+}
+
+.carousel-indicators > .indicator-button-style {
+  background-color: #4caf4f;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  transition: all linear 0.4s;
+}
+.carousel-indicators > .active {
+  background-color: var(--primary-color);
+}
