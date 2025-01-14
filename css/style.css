@@ -9,6 +9,9 @@
   --para-color: #717171;
   --white: #fff;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter", serif;
 }
@@ -160,4 +163,42 @@ h2 {
   gap: 8px;
   align-items: center;
   justify-content: center;
+}
+/* unseen content styles */
+
+#unseen-section {
+  margin-top: 40px;
+}
+
+/* .unseen-content {
+  padding-left: 50px;
+} */
+
+.unseen-img img {
+  width: 100%;
+}
+.unseen-content > p {
+  padding: 16px 0 32px 0;
+}
+
+/* achievement section styles  */
+#achievement {
+  margin-top: 50px;
+  background-color: var(--bg-color-one);
+  padding: 64px 0;
+}
+span {
+  color: var(--primary-color);
+  /* padding-bottom: 8px; */
+}
+
+.achievement-details div {
+  justify-content: center;
+}
+.achievement-details h3 {
+  color: var(--heading-color);
+}
+
+footer {
+  margin-top: 300px;
 }

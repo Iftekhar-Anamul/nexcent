@@ -8,6 +8,9 @@
     font-size: 3rem;
     line-height: 60px;
   }
+  .unseen-img img {
+    width: 70%;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -15,6 +18,9 @@
   .hero-content h1 {
     font-size: 3rem;
     line-height: 60px;
+  }
+  .unseen-img img {
+    width: 70%;
   }
 }
 
