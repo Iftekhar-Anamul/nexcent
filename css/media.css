@@ -11,6 +11,16 @@
   .unseen-img img {
     width: 70%;
   }
+  .customers-logo {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+  }
+  .customers-logo img {
+    width: 50px;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
