@@ -22,6 +22,7 @@ h2 {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
+  color: var(--heading-color);
 }
 .primary-button {
   background-color: var(--primary-color);
@@ -144,7 +145,7 @@ h2 {
   margin-top: 16px;
 }
 .community {
-  max-width: 30%;
+  /* max-width: 30%; */
   display: flex;
   flex-direction: column;
   align-items: center;
