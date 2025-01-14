@@ -4,6 +4,7 @@
   --primary-color: #4caf4f;
   --secondary-color: #263238;
   --bg-color-one: #f5f7fa;
+  --bg-color-footer: #263238;
   --text-color: #18191f;
   --heading-color: #4d4d4d;
   --para-color: #717171;
@@ -26,6 +27,12 @@ h2 {
   font-weight: 600;
   line-height: 44px;
   color: var(--heading-color);
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--para-color);
 }
 .primary-button {
   background-color: var(--primary-color);
@@ -203,9 +210,9 @@ span {
 #calender {
   margin-top: 50px;
 }
-.calender-img img {
+/* .calender-img img {
   width: 100%;
-}
+} */
 
 .calender > p {
   padding: 16px 0 32px 0;
@@ -240,7 +247,99 @@ span {
   width: 200px;
 }
 
+/* customers styles e */
+.services > .service {
+  position: relative;
+}
+.services > .service img {
+  width: 100%;
+  /* aspect-ratio: 1.286/1; */
+}
+.service-content {
+  width: 80%;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--bg-color-one);
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  left: 10%;
+  z-index: 999;
+}
+.me-1 {
+  margin-right: -7.75rem !important;
+}
+
+/* marketing styles start */
+
+#marketing {
+  margin-top: 50px;
+}
+
+/* marketing styles ends */
+
+/* demo styles start here */
+
+#demo {
+  margin-top: 200px;
+}
+/* .demo-section {
+  text-align: center;
+} */
+.demo-section h1 {
+  line-height: 50px;
+  font-weight: 700;
+}
+/* .demo-section a {
+  width: 200px;
+} */
 /* footer */
 footer {
-  margin-top: 300px;
+  margin-top: 40px;
+  background-color: var(--bg-color-footer);
+  padding: 70px 0;
+}
+.f-copyrgiht {
+  margin: 30px 0 30px 0;
+}
+.f-copyrgiht p {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 24px;
+}
+.f-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--white);
+}
+ul {
+  margin-left: -30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.f-nav ul > li {
+  list-style: none;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.f-nav form input {
+  background-color: var(--para-color);
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  padding: 2px 6px;
+  color: var(--white);
+}
+.f-nav form input::placeholder {
+  color: white;
 }

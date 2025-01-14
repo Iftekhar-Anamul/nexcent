@@ -8,9 +8,11 @@
     font-size: 3rem;
     line-height: 60px;
   }
+
   .unseen-img img {
-    width: 70%;
+    width: 100%;
   }
+
   .customers-logo {
     margin-top: 60px;
     display: grid;
@@ -21,6 +23,34 @@
   .customers-logo img {
     width: 50px;
   }
+  .service-2 {
+    margin: 150px 0;
+  }
+  /* .f-logo img {
+    width: 100%;
+  } */
+  .f-copyrgiht p {
+    line-height: 24px;
+  }
+  /* .f-social-icon {
+    background-color: red;
+    align-items: center;
+    height: 160px;
+    text-align: center;
+    align-self: flex-end;
+  } */
+  footer h5 {
+    font-size: 16px;
+  }
+  /* .f-nav ul > li {
+    font-size: 12px;
+  } */
+  .f-nav form input {
+    max-width: 115px;
+  }
+  .f-nav form input::placeholder {
+    font-size: 12px;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -30,18 +60,50 @@
     line-height: 60px;
   }
   .unseen-img img {
-    width: 70%;
+    width: 90%;
+  }
+  .calender-img img {
+    width: 100%;
+  }
+  .service-2 {
+    margin: 200px 0;
+  }
+  .service-content {
+    padding: 40px 30px;
+    bottom: -18%;
+    left: 10%;
+  }
+  .f-nav form input {
+    max-width: 140px;
+  }
+  .f-nav form input::placeholder {
+    font-size: 14px;
   }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (min-width: 768px) and (max-width: 990.98px) {
+  .service-3 {
+    margin: 150px 0;
+  }
+  .me-1 {
+    margin-right: -3.75rem !important;
+  }
+  .f-nav form input {
+    max-width: 150px;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (min-width: 991px) and (max-width: 1198.98px) {
+  .f-nav form input {
+    max-width: 150px;
+  }
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media only screen and (min-width: 1199px) and (max-width: 1399.98px) {
+  .f-nav form input {
+    max-width: 150px;
+  }
 }
