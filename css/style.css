@@ -199,6 +199,14 @@ span {
   color: var(--heading-color);
 }
 
+/* calender styles */
+#calender {
+  margin-top: 50px;
+}
+
+.calender > p {
+  padding: 16px 0 32px 0;
+}
 footer {
   margin-top: 300px;
 }
