@@ -210,9 +210,9 @@ span {
 #calender {
   margin-top: 50px;
 }
-/* .calender-img img {
+.calender-img img {
   width: 100%;
-} */
+}
 
 .calender > p {
   padding: 16px 0 32px 0;
